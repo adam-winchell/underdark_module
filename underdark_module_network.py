@@ -8,7 +8,8 @@ web = Web(
      [21,23],[24,4],[24,25],[26,27],[26,28],\
      [29,23],[21,29],[30, 2],[30,5],[31,10],\
      [31,32],[31,33],[27,4],[34,20],[34,35],\
-         [34,36], [34,37], [35,36]],
+         [34,36], [34,37], [35,36], [17,29], \
+             [17,8], [24,19], [38,35],[38,4]],
     display={
         'nodes' : {
             0 : {
@@ -52,7 +53,7 @@ web = Web(
                 'Zone' : 'Shadow',
             },
             10 : {
-                'name' : 'The Coup of XXX',
+                'name' : 'The Court of Graz\'zt',
                 'Zone' : 'Dusk',
             },
             11 : {
@@ -80,7 +81,7 @@ web = Web(
                 'Zone' : 'Dusk',
             },
             17 : {
-                'name' : 'Up and Coming Demon',
+                'name' : 'Final Betrayal',
                 'Zone' : 'Void',
             },
             18 : {
@@ -88,7 +89,7 @@ web = Web(
                 'Zone' : 'Dusk',
             },
             19 : {
-                'name' : 'Shapeshifter City',
+                'name' : 'Juiblex\'s Plans',
                 'Zone' : 'Dusk',
             },
             20 : {
@@ -161,6 +162,10 @@ web = Web(
             },
             37 : {
                 'name' : 'Mystery of the Tanaruks',
+                'Zone' : 'Twilight',
+            },
+            38 : {
+                'name' : 'Great Wyrm Shadow Dragon',
                 'Zone' : 'Twilight',
             },
         },
