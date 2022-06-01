@@ -7,7 +7,8 @@ web = Web(
      [19,20],[20,21],[22,4],[22,19],[21,19],\
      [21,23],[24,4],[24,25],[26,27],[26,28],\
      [29,23],[21,29],[30, 2],[30,5],[31,10],\
-     [31,32],[31,33]],
+     [31,32],[31,33],[27,4],[34,20],[34,35],\
+         [34,36], [34,37], [35,36]],
     display={
         'nodes' : {
             0 : {
@@ -146,8 +147,24 @@ web = Web(
                 'name' : 'Ruins of XXX',
                 'Zone' : 'Gloom',
             },
+            34 : {
+                'name' : 'Stalking Nothic',
+                'Zone' : 'Twilight',
+            },
+            35 : {
+                'name' : 'Orcus Stuff',
+                'Zone' : 'Twilight',
+            },
+            36 : {
+                'name' : 'Shrine of Orcus',
+                'Zone' : 'Twilight',
+            },
+            37 : {
+                'name' : 'Mystery of the Tanaruks',
+                'Zone' : 'Twilight',
+            },
         },
     },
 )
-
-web.show()
+if __name__ == '__main__':
+    web.show()
