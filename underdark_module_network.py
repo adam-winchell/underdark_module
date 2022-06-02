@@ -46,6 +46,10 @@ web = Web(
         [24, 19],
         [38, 35],
         [38, 4],
+        [39, 28],
+        [39,38],
+        [40,28],
+        [40, 10]
     ],
     display={
         "metadata": {
@@ -207,6 +211,14 @@ web = Web(
             38: {
                 "name": "Great Wyrm Shadow Dragon",
                 "Zone": "Twilight",
+            },
+            39: {
+                "name": "Waking Up",
+                "Zone": "Shadow",
+            },
+            40: {
+                "name": "Drow Hamlet",
+                "Zone": "Dusk",
             },
         },
     },
