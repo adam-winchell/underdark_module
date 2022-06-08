@@ -52,7 +52,13 @@ web = Web(
         [13, 36],
         [27,12],
         [7,32],
-        [3,32]
+        [3,32],
+        [19,4],
+        [41, 2],
+        [42,35],
+        [42,10],
+        [43,5],
+        [43,44]
     ],
     display={
         "metadata": {
@@ -221,6 +227,22 @@ web = Web(
             },
             40: {
                 "name": "Drow Hamlet",
+                "Zone": "Dusk",
+            },
+            41: {
+                "name": "Bottomless Valley",
+                "Zone": "Dusk",
+            },
+            42: {
+                "name": "The Words of Orcus",
+                "Zone": "Twilight",
+            },
+            43: {
+                "name": "Purple Worm Nest",
+                "Zone": "Gloom",
+            },
+            43: {
+                "name": "Purple Worm Rush Hour",
                 "Zone": "Dusk",
             },
         },
