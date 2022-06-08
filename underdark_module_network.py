@@ -241,7 +241,7 @@ web = Web(
                 "name": "Purple Worm Nest",
                 "Zone": "Gloom",
             },
-            43: {
+            44: {
                 "name": "Purple Worm Rush Hour",
                 "Zone": "Dusk",
             },
