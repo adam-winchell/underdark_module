@@ -58,7 +58,9 @@ web = Web(
         [42,35],
         [42,10],
         [43,5],
-        [43,44]
+        [43,44],
+        [45, 3],
+        [45,46]
     ],
     display={
         "metadata": {
@@ -243,6 +245,14 @@ web = Web(
             },
             44: {
                 "name": "Purple Worm Rush Hour",
+                "Zone": "Dusk",
+            },
+            45: {
+                "name": "Colony of Myconids",
+                "Zone": "Dusk",
+            },
+            46: {
+                "name": "Death of a Colony",
                 "Zone": "Dusk",
             },
         },
