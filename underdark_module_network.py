@@ -60,7 +60,9 @@ web = Web(
         [43,5],
         [43,44],
         [45, 3],
-        [45,46]
+        [45,46],
+        [46, 4],
+        [10,47]
     ],
     display={
         "metadata": {
@@ -84,15 +86,15 @@ web = Web(
                 "Zone": "Twilight",
             },
             4: {
-                "name": "Elder Brain",
-                "Zone": "Gloom",
+                "name": "Depths of the Mind",
+                "Zone": "Void",
             },
             5: {
                 "name": "The Final Gauntlet",
-                "Zone": "Gloom",
+                "Zone": "Void",
             },
             6: {
-                "name": "Umbral Gauntlet 2",
+                "name": "Umbral Gauntlet 3",
                 "Zone": "Gloom",
             },
             7: {
@@ -113,11 +115,11 @@ web = Web(
             },
             11: {
                 "name": "The Mindflayer Outpost",
-                "Zone": "Dusk",
+                "Zone": "Gloom",
             },
             12: {
                 "name": "Dungeon of the Smiling One",
-                "Zone": "Void",
+                "Zone": "Shadow",
             },
             13: {
                 "name": "The Rot",
@@ -125,7 +127,7 @@ web = Web(
             },
             14: {
                 "name": "The Pit",
-                "Zone": "Gloom",
+                "Zone": "Twilight",
             },
             15: {
                 "name": "The Guild of Gloom",
@@ -145,7 +147,7 @@ web = Web(
             },
             19: {
                 "name": "Juiblex's Plans",
-                "Zone": "Dusk",
+                "Zone": "Void",
             },
             20: {
                 "name": "Sulfurous Invasion",
@@ -169,7 +171,7 @@ web = Web(
             },
             25: {
                 "name": "Master of Golems",
-                "Zone": "Twilight",
+                "Zone": "Gloom",
             },
             26: {
                 "name": "Lost Goblins",
@@ -181,14 +183,14 @@ web = Web(
             },
             28: {
                 "name": "The Broken Mountains",
-                "Zone": "Dusk",
+                "Zone": "Gloom",
             },
             29: {
                 "name": "Yuan-ti Ruins",
-                "Zone": "Dusk",
+                "Zone": "Gloom",
             },
             30: {
-                "name": "Umbral Gauntlet 3",
+                "name": "Umbral Gauntlet 4",
                 "Zone": "Gloom",
             },
             31: {
@@ -197,7 +199,7 @@ web = Web(
             },
             32: {
                 "name": "The Valley of Spirits",
-                "Zone": "Gloom",
+                "Zone": "Dusk",
             },
             33: {
                 "name": "Ruins of XXX",
@@ -209,19 +211,19 @@ web = Web(
             },
             35: {
                 "name": "Orcus Stuff",
-                "Zone": "Twilight",
+                "Zone": "Void",
             },
             36: {
                 "name": "Shrine of Orcus",
-                "Zone": "Twilight",
+                "Zone": "Shadow",
             },
             37: {
                 "name": "Mystery of the Tanaruks",
-                "Zone": "Twilight",
+                "Zone": "Dusk",
             },
             38: {
                 "name": "Great Wyrm Shadow Dragon",
-                "Zone": "Twilight",
+                "Zone": "Void",
             },
             39: {
                 "name": "Waking Up",
@@ -233,27 +235,55 @@ web = Web(
             },
             41: {
                 "name": "Bottomless Valley",
-                "Zone": "Dusk",
+                "Zone": "Gloom",
             },
             42: {
                 "name": "The Words of Orcus",
-                "Zone": "Twilight",
+                "Zone": "Dusk",
             },
             43: {
                 "name": "Purple Worm Nest",
                 "Zone": "Gloom",
             },
             44: {
-                "name": "Purple Worm Rush Hour",
+                "name": "Purple Worm Crossing",
                 "Zone": "Dusk",
             },
             45: {
                 "name": "Colony of Myconids",
-                "Zone": "Dusk",
+                "Zone": "Twilight",
             },
             46: {
                 "name": "Death of a Colony",
                 "Zone": "Dusk",
+            },
+            47: {
+                "name": "Migrant Caravan",
+                "Zone": "Dusk",
+            },
+            48: {
+                "name": "The Banished One",
+                "Zone": "Shadow",
+            },
+            49: {
+                "name": "Void Oblex",
+                "Zone": "Void",
+            },
+            50: {
+                "name": "Temple of Demogorgon",
+                "Zone": "Shadow",
+            },
+            51: {
+                "name": "Inverted Pyramid",
+                "Zone": "Shadow",
+            },
+            52: {
+                "name": "Hierophant of Annihilation",
+                "Zone": "Shadow",
+            },
+            53: {
+                "name": "Charon's New Deal",
+                "Zone": "Void",
             },
         },
     },
