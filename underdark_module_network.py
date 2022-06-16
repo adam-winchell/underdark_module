@@ -62,7 +62,10 @@ web = Web(
         [45, 3],
         [45,46],
         [46, 4],
-        [10,47]
+        [10,47],
+        [53,54],
+        [55,28],
+        [55, 21]
     ],
     display={
         "metadata": {
@@ -94,7 +97,7 @@ web = Web(
                 "Zone": "Void",
             },
             6: {
-                "name": "Umbral Gauntlet 3",
+                "name": "Fzbl",
                 "Zone": "Gloom",
             },
             7: {
@@ -190,8 +193,8 @@ web = Web(
                 "Zone": "Gloom",
             },
             30: {
-                "name": "Umbral Gauntlet 4",
-                "Zone": "Gloom",
+                "name": "Th'lxi the Scourge",
+                "Zone": "Twilight",
             },
             31: {
                 "name": "Ghost of a Drow Samurai",
@@ -202,7 +205,7 @@ web = Web(
                 "Zone": "Dusk",
             },
             33: {
-                "name": "Ruins of XXX",
+                "name": "Ruins of YYY",
                 "Zone": "Gloom",
             },
             34: {
@@ -284,6 +287,22 @@ web = Web(
             53: {
                 "name": "Charon's New Deal",
                 "Zone": "Void",
+            },
+            54: {
+                "name": "Ocean of Anguish",
+                "Zone": "Void",
+            },
+            55: {
+                "name": "Nightmare of Reality",
+                "Zone": "Dusk",
+            },
+            56: {
+                "name": "Wraith Hunters",
+                "Zone": "Dusk",
+            },
+            57: {
+                "name": "Gar'god's Libray",
+                "Zone": "Shadow",
             },
         },
     },
