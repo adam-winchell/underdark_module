@@ -65,253 +65,260 @@ web = Web(
         [10,47],
         [53,54],
         [55,28],
-        [55, 21]
+        [55, 21],
+        [2,54],
+        [58, 5],
+        [58,30]
     ],
     display={
         "metadata": {
-            "Zone": {"values": ["Twilight", "Dusk", "Gloom", "Shadow", "Void"]}
+            "Zone": {"values": ["1. Twilight", "2. Dusk", "3. Gloom", "4. Shadow", "5. Void"]}
         },
         "nodes": {
             0: {
                 "name": "Kua Toa Village",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             1: {
                 "name": "The Great Sharay",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             2: {
                 "name": "Skeletal Fisherman",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             3: {
                 "name": "Enchanted Forest",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             4: {
                 "name": "Depths of the Mind",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             5: {
                 "name": "The Final Gauntlet",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             6: {
                 "name": "Fzbl",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             7: {
                 "name": "Sword Wraith Warrior",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             8: {
                 "name": "Roper Cavern",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             9: {
                 "name": "The Mephitic Swamp",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             10: {
                 "name": "The Court of Graz'zt",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             11: {
                 "name": "The Mindflayer Outpost",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             12: {
                 "name": "Dungeon of the Smiling One",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             13: {
                 "name": "The Rot",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             14: {
                 "name": "The Pit",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             15: {
-                "name": "The Guild of Gloom",
-                "Zone": "Gloom",
+                "name": "The Guild of 3. Gloom",
+                "Zone": "3. Gloom",
             },
             16: {
                 "name": "Cave Spring",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             17: {
                 "name": "Final Betrayal",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             18: {
                 "name": "Oblex Party",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             19: {
                 "name": "Juiblex's Plans",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             20: {
                 "name": "Sulfurous Invasion",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             21: {
                 "name": "Gnomish Village",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             22: {
                 "name": "Baby Oblex",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             23: {
                 "name": "Naga Hostages",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             24: {
                 "name": "Behomoth Ooze",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             25: {
                 "name": "Master of Golems",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             26: {
                 "name": "Lost Goblins",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             27: {
                 "name": "Tadpoles on the Mind",
-                "Zone": "Dusk",
+                "Zone": "4. Shadow",
             },
             28: {
                 "name": "The Broken Mountains",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             29: {
                 "name": "Yuan-ti Ruins",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             30: {
                 "name": "Th'lxi the Scourge",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             31: {
                 "name": "Ghost of a Drow Samurai",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             32: {
                 "name": "The Valley of Spirits",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             33: {
                 "name": "Ruins of YYY",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             34: {
                 "name": "Stalking Nothic",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             35: {
                 "name": "Orcus Stuff",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             36: {
                 "name": "Shrine of Orcus",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             37: {
                 "name": "Mystery of the Tanaruks",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             38: {
-                "name": "Great Wyrm Shadow Dragon",
-                "Zone": "Void",
+                "name": "Great Wyrm 4. Shadow Dragon",
+                "Zone": "5. Void",
             },
             39: {
                 "name": "Waking Up",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             40: {
                 "name": "Drow Hamlet",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             41: {
                 "name": "Bottomless Valley",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             42: {
                 "name": "The Words of Orcus",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             43: {
                 "name": "Purple Worm Nest",
-                "Zone": "Gloom",
+                "Zone": "3. Gloom",
             },
             44: {
                 "name": "Purple Worm Crossing",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             45: {
                 "name": "Colony of Myconids",
-                "Zone": "Twilight",
+                "Zone": "1. Twilight",
             },
             46: {
                 "name": "Death of a Colony",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             47: {
                 "name": "Migrant Caravan",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             48: {
                 "name": "The Banished One",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             49: {
                 "name": "Void Oblex",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             50: {
                 "name": "Temple of Demogorgon",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             51: {
                 "name": "Inverted Pyramid",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             52: {
                 "name": "Hierophant of Annihilation",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
             },
             53: {
                 "name": "Charon's New Deal",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             54: {
                 "name": "Ocean of Anguish",
-                "Zone": "Void",
+                "Zone": "5. Void",
             },
             55: {
                 "name": "Nightmare of Reality",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             56: {
                 "name": "Wraith Hunters",
-                "Zone": "Dusk",
+                "Zone": "2. Dusk",
             },
             57: {
                 "name": "Gar'god's Libray",
-                "Zone": "Shadow",
+                "Zone": "4. Shadow",
+            },
+            58: {
+                "name": "Sapphire Veins",
+                "Zone": "4. Shadow",
             },
         },
     },
 )
 if __name__ == "__main__":
     web.display.colorBy = "Zone"
-    web.display.charge = 300
-    web.display.showNodeNames = True
+    web.display.charge = 100
     web.display.linkStrength = 0.2
     web.display.linkLength = 30
+    web.display.colorPalette = "Greys"
 
     web.show()
