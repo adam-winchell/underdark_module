@@ -311,6 +311,14 @@ web = Web(
                 "name": "Sapphire Veins",
                 "Zone": "4. Shadow",
             },
+            59: {
+                "name": "Establishing Home",
+                "Zone": "1. Twilight",
+            },
+            60: {
+                "name": "Below the Lava",
+                "Zone": "5. Void",
+            },
         },
     },
 )
