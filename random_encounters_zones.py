@@ -2,9 +2,9 @@ from webweb import Web
 
 web = Web(
     adjacency=[
-        [0, 1],
+        [61, 1],
         [1, 2],
-        [0, 4],
+        [61, 4],
         [1, 5],
         [5, 6],
         [6, 7],
@@ -68,17 +68,23 @@ web = Web(
         [55, 21],
         [2,54],
         [58, 5],
-        [58,30]
+        [58,30],
+        [60, 2],
+        [46, 59],
+        [62, 58],
+        [62, 43],
+        [63, 60],
+        [65,64],
+        [65, 46],
+        [66, 35],
+        [67, 64],
+        [64, 4]
     ],
     display={
         "metadata": {
             "Zone": {"values": ["1. Twilight", "2. Dusk", "3. Gloom", "4. Shadow", "5. Void"]}
         },
         "nodes": {
-            0: {
-                "name": "Kua Toa Village",
-                "Zone": "1. Twilight",
-            },
             1: {
                 "name": "The Great Sharay",
                 "Zone": "3. Gloom",
@@ -100,7 +106,7 @@ web = Web(
                 "Zone": "5. Void",
             },
             6: {
-                "name": "Fzbl",
+                "name": "Fzhbl",
                 "Zone": "3. Gloom",
             },
             7: {
@@ -136,7 +142,7 @@ web = Web(
                 "Zone": "1. Twilight",
             },
             15: {
-                "name": "The Guild of 3. Gloom",
+                "name": "The Guild of Gloom",
                 "Zone": "3. Gloom",
             },
             16: {
@@ -228,7 +234,7 @@ web = Web(
                 "Zone": "2. Dusk",
             },
             38: {
-                "name": "Great Wyrm 4. Shadow Dragon",
+                "name": "Great Wyrm Shadow Dragon",
                 "Zone": "5. Void",
             },
             39: {
@@ -268,7 +274,7 @@ web = Web(
                 "Zone": "2. Dusk",
             },
             48: {
-                "name": "The Banished One",
+                "name": "Gaol of the Forsaken",
                 "Zone": "4. Shadow",
             },
             49: {
@@ -318,6 +324,38 @@ web = Web(
             60: {
                 "name": "Below the Lava",
                 "Zone": "5. Void",
+            },
+            61: {
+                "name": "Kua Toa Village",
+                "Zone": "1. Twilight",
+            },
+            62: {
+                "name": "Xorn Slaver",
+                "Zone": "13. Gloom",
+            },
+            63: {
+                "name": "Sands of Inferno",
+                "Zone": "3. Gloom",
+            },
+            64: {
+                "name": "Infected Solar",
+                "Zone": "5. Void",
+            },
+            65: {
+                "name": "Zuggtmoy's Plan",
+                "Zone": "5. Void",
+            },
+            66: {
+                "name": "A man and his horse",
+                "Zone": "4. Shadow",
+            },
+            67: {
+                "name": "Last of the Trio",
+                "Zone": "4. Shadow",
+            },
+            68: {
+                "name": "Boreal Mire of Necrosis",
+                "Zone": "3. Gloom",
             },
         },
     },
