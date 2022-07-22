@@ -78,7 +78,10 @@ web = Web(
         [65, 46],
         [66, 35],
         [67, 64],
-        [64, 4]
+        [64, 4],
+        [69, 63],
+        [70,13],
+        [71, 32]
     ],
     display={
         "metadata": {
@@ -335,7 +338,7 @@ web = Web(
             },
             63: {
                 "name": "Sands of Inferno",
-                "Zone": "3. Gloom",
+                "Zone": "5. Void",
             },
             64: {
                 "name": "Infected Solar",
@@ -355,6 +358,22 @@ web = Web(
             },
             68: {
                 "name": "Boreal Mire of Necrosis",
+                "Zone": "3. Gloom",
+            },
+            69: {
+                "name": "Volcanic Breach",
+                "Zone": "5. Void",
+            },
+            70: {
+                "name": "Bizarre Bazaar",
+                "Zone": "1. Twilight",
+            },
+            71: {
+                "name": "Tomb of a Fallen Warrior",
+                "Zone": "1. Twilight",
+            },
+            72: {
+                "name": "Phantasmal Cliffs",
                 "Zone": "3. Gloom",
             },
         },

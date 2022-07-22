@@ -4,14 +4,22 @@ import matplotlib.patches as mpatches
 
 
 G = nx.Graph()
-G.add_nodes_from(["Sands of Inferno", "Boreal Mire of Necrosis", "The Great Sharay", "Xorn Slaver"], bipartite=0)
-G.add_nodes_from(["Djinni of Steam"], bipartite=1, )
+
+G.add_nodes_from(["Sands of Inferno", 
+"Boreal Mire of Necrosis", 
+"The Great Sharay", 
+"Xorn Slaver",
+"Bizarre Bazaar"], bipartite=0)
+
+G.add_nodes_from(["Djinni of Steam", 
+"Oleg Smivivsen"], bipartite=1, )
 
 G.add_edges_from([
 ("Sands of Inferno","Djinni of Steam"),
 ("Boreal Mire of Necrosis","Djinni of Steam"),
 ("The Great Sharay","Djinni of Steam"),
-("Xorn Slaver","Djinni of Steam")
+("Xorn Slaver","Djinni of Steam"),
+("Bizarre Bazaar", "Oleg Smivivsen")
 ])
 
 
