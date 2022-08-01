@@ -9,7 +9,6 @@ web = Web(
         [5, 6],
         [6, 7],
         [8, 9],
-        [8, 10],
         [11, 12],
         [11, 4],
         [12, 4],
@@ -32,7 +31,6 @@ web = Web(
         [21, 29],
         [30, 2],
         [30, 5],
-        [31, 10],
         [31, 32],
         [31, 33],
         [27, 4],
@@ -48,7 +46,6 @@ web = Web(
         [39, 28],
         [39,38],
         [40,28],
-        [40, 10],
         [13, 36],
         [27,12],
         [7,32],
@@ -56,18 +53,16 @@ web = Web(
         [19,4],
         [41, 2],
         [42,35],
-        [42,10],
         [43,5],
         [43,44],
         [45, 3],
         [45,46],
         [46, 4],
-        [10,47],
         [53,54],
         [55,28],
         [55, 21],
         [2,54],
-        [58, 5],
+        [58, 4],
         [58,30],
         [60, 2],
         [46, 59],
@@ -81,7 +76,9 @@ web = Web(
         [64, 4],
         [69, 63],
         [70,13],
-        [71, 32]
+        [71, 32],
+        [74, 63],
+        [74, 5]
     ],
     display={
         "metadata": {
@@ -125,7 +122,7 @@ web = Web(
                 "Zone": "4. Shadow",
             },
             10: {
-                "name": "The Court of Graz'zt",
+                "name": "Empty Castle Town",
                 "Zone": "2. Dusk",
             },
             11: {
@@ -374,6 +371,26 @@ web = Web(
             },
             72: {
                 "name": "Phantasmal Cliffs",
+                "Zone": "3. Gloom",
+            },
+            73: {
+                "name": "Permafrost Explosion",
+                "Zone": "4. Shadow",
+            },
+            74: {
+                "name": "Tornado Alley",
+                "Zone": "3. Gloom",
+            },
+            75: {
+                "name": "Shapeshifter City",
+                "Zone": "2. Dusk",
+            },
+            76: {
+                "name": "Fighting Pits of Pandemonium",
+                "Zone": "3. Gloom",
+            },
+            77: {
+                "name": "Darkroot Depths",
                 "Zone": "3. Gloom",
             },
         },
