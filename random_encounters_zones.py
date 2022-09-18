@@ -78,7 +78,13 @@ web = Web(
         [70,13],
         [71, 32],
         [74, 63],
-        [74, 5]
+        [74, 5],
+        [83,38],
+        [79, 4],
+        [82, 25],
+        [82,48],
+        [48, 89],
+        [78,38]
     ],
     display={
         "metadata": {
@@ -234,8 +240,8 @@ web = Web(
                 "Zone": "2. Dusk",
             },
             38: {
-                "name": "Great Wyrm Shadow Dragon",
-                "Zone": "5. Void",
+                "name": "Silere the Absolute",
+                "Zone": "4. Shadow",
             },
             39: {
                 "name": "Waking Up",
@@ -392,6 +398,54 @@ web = Web(
             77: {
                 "name": "Darkroot Depths",
                 "Zone": "3. Gloom",
+            },
+            78: {
+                "name": "Sanctuary of Silence",
+                "Zone": "4. Shadow",
+            },
+            79: {
+                "name": "Crashed Ship",
+                "Zone": "5. Void",
+            },
+            80: {
+                "name": "Mine your Business",
+                "Zone": "1. Twilight",
+            },
+            81: {
+                "name": "Moloch's Scheme",
+                "Zone": "5. Void",
+            },
+            82: {
+                "name": "The Chase",
+                "Zone": "4. Shadow",
+            },
+            83: {
+                "name": "Workshop and Prison",
+                "Zone": "1. Twilight",
+            },
+            84: {
+                "name": "Lone Neogi",
+                "Zone": "1. Twilight",
+            },
+            85: {
+                "name": "Brain on the Menu",
+                "Zone": "3. Gloom",
+            },
+            86: {
+                "name": "Bobbing Light",
+                "Zone": "4. Shadow",
+            },
+            87: {
+                "name": "The God of Doors",
+                "Zone": "5. Void",
+            },
+            88: {
+                "name": "Crypt of Fate",
+                "Zone": "2. Dusk",
+            },
+            89: {
+                "name": "Deepbreach",
+                "Zone": "2. Dusk",
             },
         },
     },
